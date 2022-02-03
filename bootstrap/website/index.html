@@ -232,7 +232,6 @@
       <div class="d-flex flex-column align-items-center mb-5">
         <div class="fs-2 fw-bolder">Course Reviews</div>
       <div class="fs-5 text-muted lead">Choose a best course to suit you</div>
-      </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-8 ">
@@ -289,22 +288,94 @@
             </div> 
           </li>
         </ul>
-
       </div>
     </div>
-
-
-
-
+    </div>
   </section>
 
   
 
 
   <!-- Contact Form -->
+  <section id="contact" style="background-color: #F9F9F9;">
+  <div class="container-lg">
+    <div class="d-flex flex-column align-items-center mb-5">
+      <div class="fs-2 fw-bolder">Get in Touch</div>
+    <div class="fs-5 text-muted lead">Please fill out the form to contact...</div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-10">
+      <form onsubmit="event.preventDefault()" class="d-flex flex-column justify-content-center">
+        <!--Email id-->
+        <div class="mb-4">
+          <label class="lead" for="emailId">Email Address</label>
+          <div class="input-group" style="height: 40px;">
+            <span class="input-group-text">
+              <i class="bi bi-envelope"></i>
+            </span>
+            <input type="email" id="emailId" class="form-control" placeholder="e.g.-sachin24@gmail.com" required/>
+            <span class="input-group-text" title="Enter your Email">
+              <i class="bi bi-question-circle"></i>
+            </span>
+          </div>
+        </div>
+        <!--Email id-->
+
+        <!--Name-->
+        <div class="mb-4">
+          <label class="lead" for="name">Name</label>
+          <div class="input-group" style="height: 40px;">
+            <span class="input-group-text">
+              <i class="bi bi-envelope"></i>
+            </span>
+            <input type="text" id="name " class="form-control" placeholder="Sachin Jaiswal"/>
+            <span class="input-group-text" title="Enter your Name">
+              <i class="bi bi-question-circle"></i>
+            </span>
+          </div>
+        </div>
+        <!--Name-->
+
+        <!--Question About-->
+        <div class="mb-4">
+          <label for="question-about" class="lead">
+            What is your question about?
+          </label>
+          <select class="form-select" name="question-about" id="question-about">
+            <option value="course">Course</option>
+            <option value="fee">Fees</option>
+            <option value="other">Others</option>
+          </select>
+        </div>
+        <!--Query-->
+          <textarea class=" mt-5 form-control" name="query" id="query" cols="5" rows="5"></textarea>
+          <!--Query-->
+
+          <!--Submit Button-->
+          <button type="submit" style="width: 150px;" class="mt-5 m-auto px-3 py-2 fw-bold btn btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+  </div>
+   </section>
 
 
   <!-- Get Updates / Modal Trigger -->
+  <section id="register" style="background-color: #EFF8F4;">
+    <div class="container-lg text-center ">
+      <div class="d-flex flex-column align-items-center mb-5">
+        <div class="fs-2 fw-bolder">Get in Touch</div>
+      <div class="fs-5 text-muted lead">Choose a best course to suit you</div>
+    </div>
+    <div class="fs-6 fw-bolder text-center">
+      A must-buy for every aspiring web dev
+    </div>
+    <div class="w-75 align-items-center m-auto">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id nemo impedit distinctio architecto facilis est atque nobis rerum, neque omnis. Esse inventore incidunt, itaque voluptatem assumenda perspiciatis omnis! Ipsum?</p>
+    </div>
+    <button class=" btn btn-lg btn-primary fs-6 fw-bolder px-5 mt-4 m-auto  ">Register for updates</button>
+    </div>
+  </section>
 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
